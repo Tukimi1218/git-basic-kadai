@@ -1,0 +1,17 @@
+PS C:\Git> cd git_challenge
+PS C:\Git\git_challenge> git init
+Initialized empty Git repository in C:/Git/git_challenge/.git/
+PS C:\Git\git_challenge> echo "Hello, world!" >> hello_world.txt
+PS C:\Git\git_challenge> git add hello_world.txt
+PS C:\Git\git_challenge> git commit -m "最初のコミット"
+[main (root-commit) e4e6574] 最初のコミット
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Git\git_challenge> git add hello_world.txt
+PS C:\Git\git_challenge> git commit -m "2回目のコミット"
+[main 460fb1f] 2回目のコミット
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Git\git_challenge> git log --oneline
+460fb1f (HEAD -> main) 2日目のコミット
+e4e6574 最初のコミット
+PS C:\Git\git_challenge> 
